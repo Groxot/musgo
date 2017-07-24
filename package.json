@@ -1,0 +1,27 @@
+{
+  "name": "musgo",
+  "version": "1.0.0",
+  "description": "musical player",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Groxot/musgo.git"
+  },
+  "keywords": [
+    "musical",
+    "player",
+    "musgo"
+  ],
+  "author": "Gopard",
+  "license": " Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Groxot/musgo/issues"
+  },
+  "homepage": "https://github.com/Groxot/musgo#readme",
+  "devDependencies": {
+    "electron": "^1.6.11"
+  }
+}
