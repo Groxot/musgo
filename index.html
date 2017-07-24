@@ -3,11 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <link rel="stylesheet" href="style.css">
+   
   </head>
   <body>
     <h1>Hello World!</h1>
     We are using node <script>document.write(process.versions.node)</script>,
     Chrome <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
+    <audio controls>
+      <source src="music/1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+    <div id="color"></div>
+    <canvas id="canvas" width=600 height=600></canvas>
   </body>
+   <script src="lib/audio.js"></script>
 </html>
