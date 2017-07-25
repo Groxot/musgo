@@ -1,9 +1,17 @@
+@font-face {
+    font-family: Sitka; /* Имя шрифта */
+    src: url(fonts/Sitka-Regular.otf); /* Путь к файлу со шрифтом */
+   }
+
 body{
 
    margin:0;
    /* background-image: url(images/back.jpg); */
    background-size: cover;
 }
-#color{
-
+h1{
+    font-family: Sitka;
+    position: center;
+    color:#4bb04f;
+    font-size: 30px;
 }
