@@ -2,19 +2,22 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Musgo!</title>
     <link rel="stylesheet" href="style.css">
    
   </head>
   <body dropzone="move">
     <h1>Musgo</h1>
-
+    <div class="track-list" id="track-list">
+    </div>
+    <div class="container">
     <audio controls>
       <source src="music/1.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
     </audio>
     <div id="color"></div>
     <canvas id="canvas" width=600 height=600></canvas>
+    </div>
   </body>
    <script src="lib/audio.js"></script>
    <script src="lib/dropFile.js"></script>

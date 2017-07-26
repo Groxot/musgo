@@ -11,7 +11,24 @@ body{
 }
 h1{
     font-family: Sitka;
-    position: center;
+    padding-left: 50%;
     color:#4bb04f;
     font-size: 30px;
+}
+
+/* audio */
+audio::-webkit-media-controls-play-button{
+     
+     opacity:0.5;
+}
+
+.track-list{
+    width: 45%;
+    float: left;
+    min-height: 100vh;
+}
+.container{
+    width: 45%;
+    float: left;
+    min-height: 100vh;
 }

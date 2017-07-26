@@ -23,5 +23,6 @@
   "homepage": "https://github.com/Groxot/musgo#readme",
   "devDependencies": {
     "electron": "^1.6.11"
-  }
+  },
+  "dependencies": {}
 }
