@@ -2,7 +2,9 @@
     font-family: Sitka; /* Имя шрифта */
     src: url(fonts/Sitka-Regular.otf); /* Путь к файлу со шрифтом */
    }
-
+html{
+    background-color: #000;
+}
 body{
 
    margin:0;
@@ -26,6 +28,7 @@ audio::-webkit-media-controls-play-button{
     width: 45%;
     float: left;
     min-height: 100vh;
+      background-color: #fff;
 }
 .container{
     width: 45%;
